@@ -229,28 +229,14 @@ function create_config( )
     sudo_users = {101302929,144132967,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-]],
-    help_text_realm = [[
+    about_text = [[HellBOT is here
+    An anti spam bot
+    https://telegram.me/Hell_Bot_channel
+    Admin:
+@Hell_admin1
+@TnT_BoY1 
+    For contact us first send 10 stickers.first We Should Considering Your message. ]], 
+ help_text_realm = [[
 Realm Commands:
 
 !creategroup [Name]
