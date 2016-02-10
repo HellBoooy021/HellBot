@@ -229,26 +229,26 @@ function create_config( )
     sudo_users = {101302929,144132967,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[HellBot is here!!!!
 
-https://github.com/SEEDTEAM/TeleSeed
+
+
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@TnT_BoY1
+@Hell_admin1
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+برای درخواست گروه به یکی از دو ایدی بالا پیام بدید
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+
+
+
+
+
+
+Our channel
+https://telegram.me/Hell_Bot_channel
+
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -328,107 +328,107 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+حذف کردن کسی . همچنین با ریپلی هم میتونین🚫
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن کسی . همچنین با ریپلی هم میتونین🚫
 
 !unban [id]
-You can also do it by reply
+آنبن کردن کسی . همچنین با ریپلی هم میتونین🔓
 
 !who
-Members list
+📝آی دی لیست اعضای گروه📋
 
 !modlist
-Moderators list
+🔱لیست ادمین های این گروه🔱
 
 !promote [username]
-Promote someone
+🔱ادمین کردن کسی در این گروه🔱
 
 !demote [username]
-Demote someone
+صلب ادمینی از کسی در این گروه🚫
 
 !kickme
-Will kick user
+خودت را کیک کن🔫
 
 !about
-Group description
+در مورد گروه📢
 
 !setphoto
-Set and locks group photo
+عکس گروه را تغییر بده🎇
 
 !setname [name]
-Set group name
+اسم گروه را تغییر بده💥
 
 !rules
-Group rules
+نمایش قوانین گروه🔥
 
 !id
-return group id or user id
+ای دی گروه را بده🔥
 
 !help
 
 !lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+قفل کن [ آمدن اعضا ,  اسم , آمدن ربات ] 🔐
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+از قفل دربیار [ اسم , عکس , آمدن اعضا , آمدن ربات ] 🔓
 
 !set rules <text>
-Set <text> as rules
+قوانین گروه را نمایش بده🔱
 
 !set about <text>
-Set <text> as about
+درباره ی گروه چیزی بنویس🔄
 
 !settings
-Returns group settings
+تنظیمات گروه را بدهℹ️
 
 !newlink
-create/revoke your group link
+لینک جدید بساز🆕
 
 !link
-returns group link
+لینک گږۅه ږۅ بـــــڍه✳️
 
 !owner
-returns group owner id
+صاحب گروه ڪیــــــــــست؟❗️
 
 !setowner [id]
-Will set id as owner
+✔️صاحب گروه را عوض کن✔️
 
 !setflood [value]
-Set [value] as flood sensitivity
+🔱تعداد پیام هایی که همزمان میتوانند بدهند را تغییر بده🔱
 
 !stats
-Simple message statistics
+🔱آمار را بده🔱
 
 !save [value] <text>
-Save <text> as [value]
+♻️در مورد کلمه ای متنی را ثبت کن♻️
 
 !get [value]
-Returns text of [value]
+✅متن ثبت شده در مورد کلمه را بگیر✅
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+🚫پاک کردن [ ادمین های یک گروه , قوانین گروه , در مورد گروه ] ⛔️
 
 !res [username]
-returns user id
+اطلاعات شخصی را بگیر
 "!res @username"
 
 !log
-will return group logs
+✅عملیات انجام شده گروه را بده✅
 
 !banlist
-will return group ban list
+⛔️لیست بن شده ها را بده🚫
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
+**شما میتوانید از شکلک ! و / در کماند ها استفاده کنید
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+*♦️فقط سازنده گروه و ادمین گروه قادر به ادد کردن ربات هست
 
-*Only owner can use res,setowner,promote,demote and log commands
+
+*فقط ادمین های گروه و سازنده میتواند دستورات مختص گروه را تغییر دهد مانند : تغییر اسم , عکس , قفل کردن , گرفتن لینک و ... را
+
+*♦️فقط سازنده میتواند به جای خودش سازنده بگزارد یا کسی را ادمین گروه کند یا صلب ادمینی بکند یا عملیات گروه را بگیرد
 
 ]]
   }
